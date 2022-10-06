@@ -1,3 +1,5 @@
+import React from 'react'
+import CartWidget from '../CartWidget/CartWidget'
 import './Navbar.css'
 
 
@@ -22,9 +24,11 @@ const Navbar = () => {
                             <a className="nav-link fs-4 text-light" href>Camperas</a>
                         </li>
                     </ul>
-                <span className="navbar-text text-light">
-                        Carrito de Compras
-                </span>
+                    <ul className="navbar-link text-bg-danger">
+                        <li>
+                        <CartWidget/>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>

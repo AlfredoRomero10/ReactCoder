@@ -1,9 +1,9 @@
+import React from "react";
 
-
-/*const CartWidget = () => {
+export const CartWidget = () => {
     return (
-        <div>
-            <img src=""/>
-        </div>
+        <i className="bi bi-cart4"></i>
     )
-}*/
+}
+
+export default CartWidget
